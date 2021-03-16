@@ -1,0 +1,22 @@
+server:
+  port: 80
+eureka:
+  client:
+    register-with-eureka: false #客户端不注册到eureka，只是进行服务的调用
+    service-url:
+      defaultZone: http://edmin:studyjava@eureka-7001.com:7001/eureka,http://edmin:studyjava@eureka-7002.com:7002/eureka,http://edmin:studyjava@eureka-7003.com:7003/eureka
+feign:
+  compression:
+    request:
+      mime-types:       # 可以被压缩的类型
+        - text/xml
+        - application/xml
+        - application/json
+      min-request-size: 2048 # 超过2048的字节进行压缩
+  hystrix:
+    enabled: true
+
+#启用相关日志
+logging:
+  level:
+    cn.study.service: DEBUG

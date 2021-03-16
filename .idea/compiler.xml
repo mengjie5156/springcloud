@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microcloud-api" />
         <module name="microcloud-consumer-80" />
+        <module name="microcloud-consumer-feign" />
+        <module name="microcloud-consumer-hystrix" />
         <module name="microcloud-eureka-7001" />
         <module name="microcloud-eureka-7002" />
         <module name="microcloud-eureka-7003" />
@@ -15,7 +17,9 @@
         <module name="microcloud-provider-dept-8001" />
         <module name="microcloud-provider-dept-8002" />
         <module name="microcloud-provider-dept-8003" />
+        <module name="microcloud-provider-dept-hystrix-8001" />
         <module name="microcloud-security" />
+        <module name="microcloud-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +30,8 @@
       <module name="microcloud" target="1.8" />
       <module name="microcloud-api" target="1.8" />
       <module name="microcloud-consumer-80" target="1.8" />
+      <module name="microcloud-consumer-feign" target="1.8" />
+      <module name="microcloud-consumer-hystrix" target="1.8" />
       <module name="microcloud-eureka-7001" target="1.8" />
       <module name="microcloud-eureka-7002" target="1.8" />
       <module name="microcloud-eureka-7003" target="1.8" />
@@ -33,7 +39,9 @@
       <module name="microcloud-provider-dept-8001" target="1.8" />
       <module name="microcloud-provider-dept-8002" target="1.8" />
       <module name="microcloud-provider-dept-8003" target="1.8" />
+      <module name="microcloud-provider-dept-hystrix-8001" target="1.8" />
       <module name="microcloud-security" target="1.8" />
+      <module name="microcloud-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -45,6 +53,7 @@
       <module name="microcloud-eureka-server" options="" />
       <module name="microcloud-provider-dept-8001" options="" />
       <module name="microcloud-security" options="" />
+      <module name="microcloud-service" options="" />
     </option>
   </component>
 </project>
