@@ -23,6 +23,7 @@
         <module name="microcloud-provider-dept-hystrix-8001" />
         <module name="microcloud-security" />
         <module name="microcloud-service" />
+        <module name="microcloud-zuul-gateway-9501" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -49,6 +50,7 @@
       <module name="microcloud-provider-dept-hystrix-8001" target="1.8" />
       <module name="microcloud-security" target="1.8" />
       <module name="microcloud-service" target="1.8" />
+      <module name="microcloud-zuul-gateway-9501" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -62,6 +64,7 @@
       <module name="microcloud-provider-dept-8001" options="" />
       <module name="microcloud-security" options="" />
       <module name="microcloud-service" options="" />
+      <module name="microcloud-zuul-gateway-9501" options="" />
     </option>
   </component>
 </project>

@@ -1,5 +1,6 @@
 server:
-  port: 8101
+  port: 9501
+
 eureka:
   client: # 客户端进行Eureka注册的配置
     service-url:
@@ -7,13 +8,35 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
     lease-expiration-duration-in-seconds: 5 # 如果现在超过了5秒的间隔（默认是90秒）
-    instance-id: company-8101.com  # 在信息列表时显示主机名称
+    instance-id: gateway-9501.com  # 在信息列表时显示主机名称
     prefer-ip-address: true     # 访问的路径变为IP地址
+
 info:
   app.name: study-microcloud
   company.name: www.study.cn
   build.artifactId: $project.artifactId$
   build.version: $project.verson$
+
 spring:
   application:
-    name: microcloud-provider-company
+    name: microcloud-zuul-gateway
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: zdmin
+    password: studyjava
+
+zuul:
+  #prefix: /study-proxy   #设置公共前缀
+  ignored-services:
+    "*"
+  routes:
+    microcloud-provider-dept: /dept-proxy/**
+    microcloud-provider-company: /company-proxy/**   #可以使用的方式二：mycompany.path: /company-proxy/**
+                                                   # mycompany.serviceId: microcloud-provider-company
+    #禁用过滤器
+#  AuthorizedRequestFilter:
+#    pre:
+#      disable: true

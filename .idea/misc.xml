@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/microcloud-consumer-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microcloud-consumer-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/microcloud-provider-company-8101/pom.xml" />
+        <option value="$PROJECT_DIR$/microcloud-zuul-gateway-9501/pom.xml" />
       </list>
     </option>
   </component>

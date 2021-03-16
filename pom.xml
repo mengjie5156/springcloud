@@ -48,6 +48,8 @@
         <module>microcloud-eureka-7003</module>
         <module>microcloud-eureka-7002</module>
 
+        <module>microcloud-zuul-gateway-9501</module>
+
         <module>microcloud-provider-dept-8001</module>
         <module>microcloud-provider-dept-8002</module>
         <module>microcloud-provider-dept-8003</module>
