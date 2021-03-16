@@ -7,10 +7,14 @@
     <file url="file://$PROJECT_DIR$/microcloud-consumer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-consumer-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud-consumer-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-eureka-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-eureka-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-eureka-7003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microcloud-provider-company-8101" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-provider-dept-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-provider-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microcloud-provider-dept-8003" charset="UTF-8" />

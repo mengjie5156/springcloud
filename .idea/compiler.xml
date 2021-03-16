@@ -10,10 +10,13 @@
         <module name="microcloud-consumer-80" />
         <module name="microcloud-consumer-feign" />
         <module name="microcloud-consumer-hystrix" />
+        <module name="microcloud-consumer-hystrix-dashboard" />
+        <module name="microcloud-consumer-turbine" />
         <module name="microcloud-eureka-7001" />
         <module name="microcloud-eureka-7002" />
         <module name="microcloud-eureka-7003" />
         <module name="microcloud-eureka-server" />
+        <module name="microcloud-provider-company-8101" />
         <module name="microcloud-provider-dept-8001" />
         <module name="microcloud-provider-dept-8002" />
         <module name="microcloud-provider-dept-8003" />
@@ -32,10 +35,14 @@
       <module name="microcloud-consumer-80" target="1.8" />
       <module name="microcloud-consumer-feign" target="1.8" />
       <module name="microcloud-consumer-hystrix" target="1.8" />
+      <module name="microcloud-consumer-hystrix-dashboard" target="1.8" />
+      <module name="microcloud-consumer-turbine" target="1.8" />
+      <module name="microcloud-consumer-turbine (1)" target="1.8" />
       <module name="microcloud-eureka-7001" target="1.8" />
       <module name="microcloud-eureka-7002" target="1.8" />
       <module name="microcloud-eureka-7003" target="1.8" />
       <module name="microcloud-eureka-server" target="1.8" />
+      <module name="microcloud-provider-company-8101" target="1.8" />
       <module name="microcloud-provider-dept-8001" target="1.8" />
       <module name="microcloud-provider-dept-8002" target="1.8" />
       <module name="microcloud-provider-dept-8003" target="1.8" />
@@ -49,6 +56,7 @@
       <module name="microcloud" options="" />
       <module name="microcloud-api" options="" />
       <module name="microcloud-consumer-80" options="" />
+      <module name="microcloud-consumer-hystrix-dashboard" options="" />
       <module name="microcloud-eureka-7001" options="" />
       <module name="microcloud-eureka-server" options="" />
       <module name="microcloud-provider-dept-8001" options="" />

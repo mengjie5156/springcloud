@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/microcloud-service/pom.xml" />
         <option value="$PROJECT_DIR$/microcloud-provider-dept-hystrix-8001/pom.xml" />
         <option value="$PROJECT_DIR$/microcloud-consumer-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microcloud-consumer-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microcloud-provider-company-8101/pom.xml" />
       </list>
     </option>
   </component>

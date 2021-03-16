@@ -8,9 +8,9 @@
         <version>0.0.1</version>
     </parent>
     <groupId>cn.study</groupId>
-    <artifactId>microcloud-provider-dept-hystrix-8001</artifactId>
+    <artifactId>microcloud-provider-company-8101</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microcloud-provider-dept-hystrix-8001</name>
+    <name>microcloud-provider-company-8101</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -20,29 +20,6 @@
                 <groupId>cn.study</groupId>
                 <artifactId>microcloud-api</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-        <dependency>
-            <groupId>cn.study</groupId>
-            <artifactId>microcloud-security</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-            <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>1.0.18</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-core</artifactId>
-            </dependency>
-            <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>1.3.2</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -65,11 +42,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-devtools</artifactId>
             </dependency>
-<!--安全访问，因为所有的 Rest 服务最终都是暴露在公网上的-->
-        <!--<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
